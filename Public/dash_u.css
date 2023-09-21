@@ -1,0 +1,153 @@
+.baldevlogo {
+    position: absolute;
+    width: 615px;
+    height: 103px;
+    left: 38px;
+    top: 28px;
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+.left{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.center{
+    white-space: nowrap;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 600px;
+    justify-content: space-between;
+}
+.home{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    width: 56px;
+height: 24px;
+margin-left: 10px;
+margin-right: 10px;
+left: 580px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.home:hover{
+    cursor: pointer;
+    font-size: 22px;}
+.basic{
+    display: inline-block;
+    width: 56px;
+height: 30px;
+left: 580px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+body{
+    background-color: black;
+}
+.dashimg{
+    position: absolute;
+width: 675px;
+height: 107px;
+left: 391px;
+top: 248px;
+}
+.dashimg2{
+
+position: absolute;
+width: 765px;
+height: 94px;
+left: 345px;
+top: 398px;
+}
+.ref{
+    color: white;
+    position: absolute;
+    top: 425px;
+    left: 380px;
+    font-size: 20px;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 590px;
+    height: 35px;
+    width: 450px;
+}
+.sbutton1{
+    position: absolute;
+    width: 108px;
+    height: 41px;
+    left: 666px;
+    top: 550px;
+    color: black;
+    background: transparent;
+    background-color: white;
+    font-size: 20px;
+    font-family: inconsolata;
+    box-shadow: 3px 3px 0 rgb(255, 255, 255);
+}
+.sbutton1:active{
+    font-size: 18px;
+    cursor: pointer;
+}
+.sbutton1:hover{
+    cursor: pointer;
+}
+.rotate{
+    position: fixed;
+    top:70%;
+    left:-280px;
+    width:250px;
+    height: 250px;
+    margin:-60px 0 0 150px;
+    -webkit-animation: spin 8.5s linear infinite;
+    -moz-animation: spin 8.5s linear infinite;
+    animation: spin 8.5s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}

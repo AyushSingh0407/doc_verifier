@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="dash_u.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&family=Inter:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div class="header">
+                <div class="left">
+                    <div class="baldevlogo"><img src="logo.svg" alt=""></div>
+            </div>
+                <div class="center">
+                    <div class="basic"><button class="home">Dashboard</button></div>
+                    <div class="basic"><button class="home">Verify</button></div>
+                    <div class="basic"><button class="home">My Certificates</button></div>
+            </div></div>
+            <img class="dashimg" src="verify_Text.svg" alt="">
+            <img class="dashimg2" src="verify_input_field.svg" alt="">
+            <!--<form>
+                <span class="ref">Reference Number</span><input type="text" class="box">
+                <input class="sbutton1" type="submit" value="Verify">
+            </form>-->
+            <label for="txHashInput">Transaction Hash:</label>
+    <input class="ref" type="text" id="txHashInput" placeholder="Enter Transaction Hash">
+    <button class="sbutton1" onclick="checkTransaction()">Check Transaction</button>
+    <div id="result"></div>
+            <img class="rotate" src="circle2.svg" alt="">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.6/web3.min.js"></script>
+            <script src="verify.js"></script>
+    </body>
+</html>
